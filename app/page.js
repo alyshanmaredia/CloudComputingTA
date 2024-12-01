@@ -466,9 +466,6 @@ export default function LandingPage() {
 				</CardContent>
 			</Card>
 			<Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-				<DialogTrigger asChild>
-					<Button onClick={handleOpenDialog}>Open Dialog</Button>
-				</DialogTrigger>
 				<DialogContent>
 					<DialogTitle>Enter Verification Code</DialogTitle>
 					<DialogDescription>
